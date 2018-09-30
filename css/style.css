@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 20px;
+  background-color: white;
+  color: #000000;
 }
 
 nav {
@@ -8,6 +9,29 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 200%;
+  line-height: 200%;
+}
+
+figcaption {
+  font-size: 80%;
+}
+
+h3 {
+  font-size: 100%;
+  line-height: normal;
+  padding-top: 0.2em;
+  padding-bottom: 1.8em;
+}
+
+p {
+  font-size: 80%;
+  line-height: normal;
+  text-align: left;
+  padding-top: 0.6em;
 }
 
 .logo {
@@ -49,4 +73,24 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+  }
+
+a: link {
+    color: #000000;
+  }
+
+a: visited{
+  color: #FFC0CB;
+}
+
+a: hover{
+  color: #BA55D3;
+}
+
+a: active{
+  color:	#FF0000;
 }
