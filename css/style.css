@@ -79,18 +79,18 @@ a {
   text-decoration: none;
   }
 
-a: link {
+a:link {
     color: #000000;
   }
 
-a: visited{
+a:visited{
   color: #FFC0CB;
 }
 
-a: hover{
+a:hover{
   color: #BA55D3;
 }
 
-a: active{
+a:active{
   color:	#FF0000;
 }
